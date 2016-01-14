@@ -3,5 +3,28 @@ html {
 }
 
 body {
-    color: #fff;
+    color: white;
+	font-family: "Archer SSm A", "Archer SSm B", Avenir, sans-serif;
+	font-weight: 500;
+}
+
+a {
+	color: white;
+}
+
+header {
+	font-size: x-large;
+	text-align: center;
+}
+
+header h1 a {
+	text-decoration: none;
+}
+
+main {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
 }
