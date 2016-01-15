@@ -1,5 +1,5 @@
 html {
-    background: teal;
+    background: rgba(0, 128, 128, 0.8);
 }
 
 body {
@@ -15,6 +15,8 @@ a {
 header {
 	font-size: x-large;
 	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 header h1 a {
@@ -23,6 +25,12 @@ header h1 a {
 
 main {
 	text-align: center;
+}
+
+img#allison-and-smokey {
+	border-radius: 0.5em;
+    margin: auto;
+    width: 400px;
 }
 
 footer {
