@@ -1,38 +1,237 @@
+:root {
+	--darkgray: rgb(78, 78, 78);
+	--teal: #1BBDC3;
+	--orange: rgba(221, 121, 0, 0.75);
+}
+
 html {
-    background: rgba(0, 128, 128, 0.8);
-}
-
-body {
-    color: white;
-	font-family: "Archer SSm A", "Archer SSm B", Avenir, sans-serif;
-	font-weight: 500;
-}
-
-a {
-	color: white;
-}
-
-header {
-	font-size: x-large;
-	text-align: center;
+	background: var(--teal);
+	background: rgba(27, 189, 195, 0.50);
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
-header h1 a {
+body {
+	align-items: center;
+	background: white;
+	border: 1em solid var(--teal);
+	border: 1em solid rgba(27, 189, 195, 1);
+	border-radius: 1em;
+	box-shadow: 0.05em 0.1em 1.5em #999;
+	color: var(--darkgray);
+	color: rgb(78, 78, 78);
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "Archer SSm A", "Archer SSm B", Avenir, sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	margin: auto;
+	max-width: 1100px;
+}
+
+a {
+	color: var(--orange);
+	color: rgba(221, 121, 0, 0.75);
 	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+header {
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	flex-grow: 1;
+	order: 1;
+}
+
+header h1 {
+	padding-left: 1em;
+}
+
+header h1 img {
+
+	/* Unless I can get flex to fix it */
+	/* vertical-align: 5%; */
+
+	margin: auto;
+	padding: 0;
+	width: 1em;
+}
+
+header h1 span#sitewordmark {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+nav {
+	flex-grow: 1;
+	order: 2;
+	padding: 0 1em 0 0;
+/* 	width: 60%; */
+}
+
+nav ul#sitenav {
+	padding: 0;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+
+nav ul li {
+/* 	flex: 0 1 auto; */
+
+/* 	This seems trendy */
+	font-variant: small-caps;
+	padding: 0.5em;
+
+/* 	This is the standard */
+/* 	text-transform: uppercase; */
+}
+
+nav ul li a {
+	background-color: var(--orange);
+
+	/* 	This is slightly lighter than the link color */
+	background-color: rgba(221, 121, 0, 0.65);
+
+	box-shadow: 1px 1px 5px #ddd;
+	border-radius: 1em;
+	color: white;
+	display: block;
+	padding: 0.25em 0.75em 0.25em 0.75em;
+}
+
+nav ul li:hover a,
+nav ul li:focus a {
+
+	/* 	And now back to the regular orancolorlor */
+	background-color: var(--orange);
+	background-color: rgba(221, 121, 0, 0.75);
+
+}
+
+nav ul li a:active {
+	box-shadow: initial;
 }
 
 main {
-	text-align: center;
+	flex-grow: 2;
+	order: 3;
+	padding: 1em 1em 5em 1em;
 }
 
-img#allison-and-smokey {
-	border-radius: 0.5em;
-    margin: auto;
-    width: 400px;
+div.textcontainer {
+	margin: auto;
+	max-width: 80%;
+}
+
+div.biocontainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 4em;
+}
+
+div.biocontainer:hover img {
+	-webkit-filter: initial;
+}
+
+div.biocontainer p {
+/* 	flex: 0 1 auto; */
+	padding-left: 1em;
+	width: 70%;
+}
+
+div.biocontainer img {
+	-webkit-filter: grayscale();
+	-webkit-clip-path: circle(50% at center);
+/* 	flex: 0 1 auto; */
+	width: 20%;
+	transition: -webkit-filter 0.2s ease-in-out;
 }
 
 footer {
+	flex-grow: 2;
 	text-align: center;
+	order: 4;
+	overflow: hidden;
+}
+
+footer p#copyright {
+	font-size: 90%;
+}
+
+footer img#sitebanner {
+
+	/* 	All of this is janky */
+	margin: auto 0 -0.35em -5%;
+	width: 110%;
+
+}
+
+@media (max-width: 1100px) {
+
+	body {
+
+/* 		Don't touch these at all, stupid */
+		border-radius: 0;
+		box-shadow: none;
+
+	}
+
+	header {
+		display: flex;
+		justify-content: center;
+		order: 1;
+	}
+
+	header h1 {
+		font-size: 5.5vw;
+		padding: 3vw initial 3vw initial;
+	}
+
+	nav {
+		display: flex;
+		order: 3;
+		margin: 3em 0 3em 0;
+		padding: 0;
+	}
+
+	nav ul {
+		display: initial;
+		margin: auto;
+	}
+
+	nav ul li {
+		width: 150px;
+		text-align: center;
+	}
+
+	main {
+		order: 2;
+
+/* 		Don't mess with this, stupid */
+		width: 100%;
+	}
+
+	div.biocontainer:last-child {
+		margin-bottom: initial;
+	}
+
+}
+
+@media (max-width: 740px) {
+
+	div.biocontainer {
+		flex-wrap: wrap;
+	}
+
+	div.biocontainer p,
+	div.biocontainer img {
+		width: 100%;
+	}
+
 }
