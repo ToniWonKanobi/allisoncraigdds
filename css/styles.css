@@ -5,8 +5,11 @@
 }
 
 html {
+	align-items: center;
 	background: var(--teal);
 	background: rgba(27, 189, 195, 0.50);
+	display: flex;
+	justify-content: center;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
@@ -23,7 +26,6 @@ body {
 	font-size: 1.1em;
 	font-weight: 500;
 	line-height: 1.65;
-	margin: auto;
 	max-width: 800px;
 }
 
@@ -73,23 +75,15 @@ nav ul {
 
 nav ul li {
 	font-size: 90%;
-
-	/* 	This seems trendy */
-	font-variant: small-caps;
 	padding: 0.5em;
-
-	/* 	This is the standard */
-	/* 	text-transform: uppercase; */
-
 	width: 95px;
 	text-align: center;
 }
 
 nav ul li a {
-	background-color: var(--orange);
 
 	/* 	This is slightly lighter than the link color */
-	background-color: rgba(221, 121, 0, 0.8);
+	background-color: rgba(221, 121, 0, 0.75);
 
 	box-shadow: 1px 1px 5px #ddd;
 	border-radius: 1em;
@@ -161,12 +155,14 @@ footer {
 
 footer p#copyright {
 	font-size: 60%;
+	padding-bottom: 1em;
 }
 
 footer img {
 
 	/* 	This is janky */
 	margin: auto 0 -0.5em -5%;
+
 	width: 110%;
 }
 
