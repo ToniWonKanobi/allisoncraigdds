@@ -13,8 +13,6 @@ html {
 	background: rgba(27, 189, 195, 0.50);
 	display: flex;
 	justify-content: center;
-	padding-top: 5vw;
-	padding-bottom: 5vw;
 }
 
 body {
