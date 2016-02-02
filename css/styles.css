@@ -126,16 +126,9 @@ div.biocontainer {
 
 	/* This is for the pictures next to the paragraph */
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-bottom: 4em;
 	padding-bottom: 4em;
-}
-
-div.biocontainer:hover img {
-
-	/* Should be able to omit the prefixes eventually */
-	-webkit-filter: initial;
-
 }
 
 /* Removes the spacing and stuff */
@@ -147,7 +140,7 @@ div.biocontainer:last-child {
 
 div.biocontainer p {
 	padding-left: 1em;
-	width: 55%;
+	width: 50%;
 }
 
 div.biocontainer img {
@@ -157,7 +150,14 @@ div.biocontainer img {
 	-webkit-filter: grayscale();
 	transition: -webkit-filter 0.2s ease-in-out;
 
-	width: 35%;
+	width: 40%;
+}
+
+div.biocontainer:hover img {
+
+	/* Should be able to omit the prefixes eventually */
+	-webkit-filter: initial;
+
 }
 
 footer {
