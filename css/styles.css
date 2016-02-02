@@ -139,7 +139,6 @@ div.biocontainer:last-child {
 }
 
 div.biocontainer p {
-	padding-left: 1em;
 	width: 50%;
 }
 
@@ -158,6 +157,10 @@ div.biocontainer:hover img {
 	/* Should be able to omit the prefixes eventually */
 	-webkit-filter: initial;
 
+}
+
+h2 {
+	font-weight: 700;
 }
 
 footer {
@@ -216,6 +219,15 @@ footer img {
 	nav ul li {
 
 		/* I'm not sure which is better---this or just the flex-direction set to column on the nav ul */
+		width: 100%;
+	}
+
+	div.biocontainer {
+		flex-direction: column;
+	}
+
+	div.biocontainer p,
+	div.biocontainer img {
 		width: 100%;
 	}
 
