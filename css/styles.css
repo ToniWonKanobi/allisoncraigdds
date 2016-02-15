@@ -1,14 +1,6 @@
 html {
-<<<<<<< HEAD
   background: rgba(27, 189, 195, 0.5);
   padding: 5vw 0;
-=======
-	align-items: center;
-	background: var(--teal);
-	background: rgba(27, 189, 195, 0.50);
-	display: flex;
-	justify-content: center;
->>>>>>> d119593a3e00ee634e326f3dbcb4e8b2d43aa5fc
 }
 
 body {

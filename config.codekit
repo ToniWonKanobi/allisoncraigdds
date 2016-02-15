@@ -2,16 +2,14 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19115",
 "files": {
-	"\/about.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
+	"\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/about.jade",
-		"outputAbbreviatedPath": "\/about.html",
+		"inputAbbreviatedPath": "\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/fonts\/410750\/0924EE33B5FE9836D.css": {
 		"fileType": 16,
@@ -353,37 +351,59 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.jade": {
+	"\/jade\/about.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.jade",
+		"inputAbbreviatedPath": "\/jade\/about.jade",
+		"outputAbbreviatedPath": "\/about.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/jade\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/index.jade",
 		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
-	"\/links.jade": {
+	"\/jade\/links.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/links.jade",
+		"inputAbbreviatedPath": "\/jade\/links.jade",
 		"outputAbbreviatedPath": "\/links.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
-	"\/location.jade": {
+	"\/jade\/location.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/location.jade",
+		"inputAbbreviatedPath": "\/jade\/location.jade",
 		"outputAbbreviatedPath": "\/location.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/jade\/staff.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/staff.jade",
+		"outputAbbreviatedPath": "\/staff.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/partials\/favicons.jade": {
@@ -499,17 +519,6 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"useLibsass": false
-		},
-	"\/staff.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/staff.jade",
-		"outputAbbreviatedPath": "\/staff.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
 		}
 	},
 "hooks": [
