@@ -1,0 +1,41 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title About Dr. Allison Craig
+		meta(name="description" content="Learn more about Dr. Allison Craig")
+		meta(name="keywords" content="dentistry, doctor, teeth, tooth pain, dental implants, crowns")
+		include partials/favicons.jade
+
+		// Open Graph and Twitter Cards
+		meta(property="og:locale" content="en_US")
+		meta(property="og:site_name" content="Allison Craig, DDS")
+		meta(property="og:type" content="website")
+		meta(property="og:title" content="About Dr. Allison Craig")
+		meta(property="og:description" content="Learn more about Dr. Allison Craig.")
+		meta(property="og:image" content="images/favicon.png")
+		meta(name="twitter:site" content="@allisoncraigdds")
+		meta(name="twitter:creator" content="@allisoncraigdds")
+		meta(name="twitter:title" content="About Dr. Allison Craig")
+		meta(name="twitter:card" content="summary")
+		meta(name="twitter:description" content="Learn more about Dr. Allison Craig.")
+		meta(name="twitter:image" content="images/favicon.png")
+
+		// Stylesheets
+		include partials/stylesheets
+
+		// Google Analytics
+		include partials/google-analytics
+		
+	body
+		include partials/header
+		include partials/nav
+		
+		main
+			h2 About Us
+			.image-text-container
+				img(src="images/nd.JPG")
+				p Bismarck Family Dental is deeply rooted in North Dakota’s history. Dr. Craig’s grandparents started a family farm in North Dakota in the 1940’s. After finishing her education in California, Dr. Craig decided to return to the place where her family laid down roots. All of us at Bismarck Family Dental are committed to the community, providing the best oral health care possible.
+
+		include partials/footer.jade

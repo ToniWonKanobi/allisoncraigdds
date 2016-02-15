@@ -1,238 +1,218 @@
-:root {
-	--darkerorange: rgba(221, 121, 0, 0.9);
-	--darkestorange: rgba(221, 121, 0, 1);
-	--text: rgb(78, 78, 78);
-	--gray: rgba(128, 128, 128, 0.25);
-	--orange: rgba(221, 121, 0, 0.75);
-	--teal: rgba(27, 189, 195, 0.50);
-}
-
 html {
-	align-items: center;
-	background: var(--teal);
-	background: rgba(27, 189, 195, 0.50);
-	display: flex;
-	justify-content: center;
-	padding-top: 5vw;
-	padding-bottom: 5vw;
+  background: rgba(27, 189, 195, 0.5);
+  padding: 5vw 0;
 }
 
 body {
-	background: white;
-	border: 0.75em solid var(--teal);
-	border: 0.75em solid rgba(27, 189, 195, 1);
-	border-radius: 0.5em;
-	color: var(--text);
-	color: rgb(78, 78, 78);
-	font-family: "Archer SSm A", "Archer SSm B", Avenir, sans-serif;
-	font-size: 1.1em;
-	font-weight: 500;
-	line-height: 1.6;
-	max-width: 650px;
+  background: white;
+  border: 0.75em solid #1bbdc3;
+  border-radius: 0.5em;
+  color: #4e4e4e;
+  font-family: "Archer SSm A", "Archer SSm B", "Avenir", sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: auto;
+  max-width: 750px;
+}
+body > *:not(footer) {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 a {
-	color: var(--orange);
-	color: rgba(221, 121, 0, 0.75);
-	text-decoration: none;
-	transition: all 0.2s ease-in-out;
+  color: rgba(221, 121, 0, 0.75);
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 header {
-	border-bottom: 0.1em solid var(--gray);
-	border-bottom: 0.1em solid rgba(128, 128, 128, 0.25);
-	margin: auto;
-	text-align: center;
-	width: 90%;
+  border-bottom: 0.1em solid rgba(128, 128, 128, 0.25);
+  text-align: center;
 }
-
+header h1 {
+  line-height: 1.3;
+}
 header h1 img {
-	width: 2em;
-	vertical-align: -27%;
+  margin: 0.75rem;
+  width: 2em;
+  vertical-align: -1.7rem;
 }
-
 header h1 span#sitewordmark {
-	font-size: 1.5em;
-	font-weight: 700;
+  font-size: 1.5em;
+  font-weight: 700;
 }
 
 nav {
-	border-bottom: 0.1em solid var(--gray);
-	border-bottom: 0.1em solid rgba(128, 128, 128, 0.25);
-	padding: 0.5em 0 0.5em 0;
-	margin: auto;
-	width: 90%;
+  border-bottom: 0.1em solid rgba(128, 128, 128, 0.25);
+  padding: 0.5em 0 0.5em 0;
+  margin: auto;
 }
-
 nav ul {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
 nav ul li {
-	font-size: 90%;
-	padding: 0.5em;
-	width: 5.75em;
-	text-align: center;
+  font-size: 90%;
+  padding: 0.5em;
+  width: 5.75em;
+  text-align: center;
 }
-
 nav ul li a {
-	background-color: var(--orange);
-	background-color: rgba(221, 121, 0, 0.75);
-	border-radius: 1em;
-
-	/* 	Cribbed from Eli Schiff (http://static1.squarespace.com/static/sitecss/54bb4cfce4b045585ada36f7/804/50521cf884aeb45fa5cfdb80/54c80b38e4b0d312f4d819b7/867-05142015/1450359800347/site.css?&filterFeatures=false) */
-	box-shadow: inset 0px -1px 1px 0px rgba(105, 105, 105, 0.5), inset 0px 0px 0px 1px rgba(0, 0, 0, 0), 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
-
-	color: white;
-	display: block;
-	padding: 0.25em 0.75em 0.25em 0.75em;
+  background-color: rgba(221, 121, 0, 0.75);
+  border-radius: 1em;
+  box-shadow: inset 0px -1px 1px 0px rgba(105, 105, 105, 0.5), inset 0px 0px 0px 1px transparent, 0px 1px 1px 0px rgba(0, 0, 0, 0.18);
+  color: white;
+  display: block;
+  padding: 0.25em 0.75em 0.25em 0.75em;
 }
-
-nav ul li:hover a,
-nav ul li:focus a {
-
-	/* Slightly darker-than-link orange */
-	background-color: var(--darkorange);
-	background-color: rgba(221, 121, 0, 0.9);
-
-}
-
 nav ul li a:active {
-
-	/* Darkest orange */
-	background-color: var(--darkestorange);
-	background-color: rgba(221, 121, 0, 1);
-	box-shadow: none;
+  background-color: #dd7900;
+  box-shadow: none;
+}
+nav ul li:hover a, nav ul li:focus a {
+  background-color: rgba(221, 121, 0, 0.9);
 }
 
 main {
-	margin: 3em auto 4em auto;
-	width: 90%;
+  margin: 3em auto;
 }
 
-div.textcontainer {
-	margin: auto;
+.image-text-container {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 0.1em solid rgba(128, 128, 128, 0.25);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 4em;
+  padding-bottom: 4em;
 }
-
-div.biocontainer {
-	align-items: center;
-	border-bottom: 0.1em solid var(--gray);
-	border-bottom: 0.1em solid rgba(128, 128, 128, 0.25);
-
-	/* This is for the pictures next to the paragraph */
-	display: flex;
-	justify-content: space-around;
-	margin-bottom: 4em;
-	padding-bottom: 4em;
+.image-text-container:last-child {
+  border-bottom: initial;
+  margin-bottom: initial;
+  padding-bottom: initial;
 }
-
-/* Removes the spacing and stuff */
-div.biocontainer:last-child {
-	border-bottom: initial;
-	margin-bottom: initial;
-	padding-bottom: initial;
+.image-text-container img {
+  -webkit-clip-path: circle(50% at center);
+          clip-path: circle(50% at center);
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: -webkit-filter 0.2s ease-in-out;
+  transition: -webkit-filter 0.2s ease-in-out;
+  transition: filter 0.2s ease-in-out;
+  transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
+  width: 40%;
 }
-
-div.biocontainer p {
-	width: 50%;
+.image-text-container:hover img {
+  -webkit-filter: initial;
+          filter: initial;
 }
-
-div.biocontainer img {
-
-	/* Should be able to omit the prefixes eventually */
-	-webkit-clip-path: circle(50% at center);
-	-webkit-filter: grayscale();
-	transition: -webkit-filter 0.2s ease-in-out;
-
-	width: 40%;
-}
-
-div.biocontainer:hover img {
-
-	/* Should be able to omit the prefixes eventually */
-	-webkit-filter: initial;
-
+.image-text-container p {
+  width: 50%;
 }
 
 h2 {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 footer {
-
-	/* Don't touch this, stupid */
-	overflow: hidden;
-
-	text-align: center;
+  overflow: hidden;
+  text-align: center;
 }
-
 footer p#copyright {
-	font-size: 60%;
-	padding-bottom: 1em;
+  font-size: 60%;
+  padding-bottom: 1em;
 }
-
 footer img {
-
-	/* This is janky (see above) */
-	margin: auto 0 -0.5em -5%;
-
-	width: 110%;
+  margin: auto 0 -0.5em -5%;
+  width: 110%;
 }
 
 @media (max-width: 740px) {
+  html {
+    padding: 0.75em;
+  }
 
-	html {
-		padding: 0.25em 0 0.25em 0;
-	}
+  body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 
-	body {
-		display: flex;
-		flex-direction: column;
-	}
+  header,
+  main,
+  nav {
+    width: 80%;
+  }
 
-	header,
-	main,
-	nav {
-		width: 80%;
-	}
+  header {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
 
-	header {
-		order: 1;
-	}
+  main {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+  }
 
-	main {
-		order: 2;
-	}
+  nav {
+    border-top: 0.1em solid rgba(128, 128, 128, 0.25);
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-bottom: 3em;
+  }
+  nav ul li {
+    width: 100%;
+  }
 
-	nav {
-		border-top: 0.1em solid var(--gray);
-		border-top: 0.1em solid rgba(128, 128, 128, 0.25);
-		order: 3;
-		margin-bottom: 3em;
-	}
+  .image-text-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .image-text-container p, .image-text-container img {
+    width: 100%;
+  }
 
-	nav ul li {
-
-		/* I'm not sure which is better---this or just the flex-direction set to column on the nav ul */
-		width: 100%;
-	}
-
-	div.biocontainer {
-		flex-direction: column;
-	}
-
-	div.biocontainer p,
-	div.biocontainer img {
-		width: 100%;
-	}
-
-	footer {
-		order: 4;
-	}
-
+  footer {
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+        -ms-flex-order: 4;
+            order: 4;
+  }
 }

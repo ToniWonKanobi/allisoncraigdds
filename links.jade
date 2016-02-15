@@ -1,0 +1,40 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title Meet the Staff
+		meta(name="description" content="Links to interesting stuff")
+		meta(name="keywords" content="dentistry, doctor, teeth, tooth pain, dental implants, crowns")
+		include partials/favicons
+
+		// Open Graph and Twitter Cards
+		meta(property="og:locale" content="en_US")
+		meta(property="og:site_name" content="Allison Craig, DDS")
+		meta(property="og:type" content="website")
+		meta(property="og:title" content="Interesting Links")
+		meta(property="og:description" content="Links to interesting stuff")
+		meta(property="og:image" content="images/favicon.png")
+		meta(name="twitter:site" content="@allisoncraigdds")
+		meta(name="twitter:creator" content="@allisoncraigdds")
+		meta(name="twitter:title" content="Interesting Links")
+		meta(name="twitter:card" content="summary")
+		meta(name="twitter:description" content="Links to interesting stuff")
+		meta(name="twitter:image" content="images/favicon.png")
+
+		// Stylesheets
+		include partials/stylesheets
+
+		// Google Analytics
+		include partials/google-analytics
+	
+	body
+		include partials/header
+		include partials/nav
+		
+		main
+			h2 Links
+				ul
+					li: a(href="http://dentistry.llu.edu" title="Loma Linda University School of Dentistry") Loma Linda University School of Dentistry
+
+		include partials/footer

@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title Location
+		meta(name="description" content="Here's where we're located!")
+		meta(name="keywords" content="dentistry, doctor, teeth, tooth pain, dental implants, crowns")
+		include partials/favicons
+
+		// Open Graph and Twitter Cards
+		meta(property="og:locale" content="en_US")
+		meta(property="og:site_name" content="Allison Craig, DDS")
+		meta(property="og:type" content="website")
+		meta(property="og:title" content="Our Location")
+		meta(property="og:description" content="Here's where we're located!")
+		meta(property="og:image" content="images/favicon.png")
+		meta(name="twitter:site" content="@allisoncraigdds")
+		meta(name="twitter:creator" content="@allisoncraigdds")
+		meta(name="twitter:title" content="Our Location")
+		meta(name="twitter:card" content="summary")
+		meta(name="twitter:description" content="Here's where we're located!")
+		meta(name="twitter:image" content="images/favicon.png")
+
+		// Stylesheets
+		include partials/stylesheets
+
+		// Google Analytics
+		include partials/google-analytics
+	
+	body
+		include partials/header
+		include partials/nav
+		
+		main
+			h2 Location Information
+			p We are conveniently located between Mammelon Way and Diastema Circle off Highway 84.
+
+			p Address: <br>
+				a(href="#" title="Apple Maps link to address") 222 Incisor Lane <br>
+				| Bismarck, ND 88888
+
+			p Phone Number: <br>
+				a(href="#" title="Phone number") 707-965-6313
+
+		include partials/footer
