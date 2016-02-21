@@ -1,3 +1,15 @@
+=border-radius($radius)
+	-webkit-border-radius: $radius
+	-moz-border-radius: $radius
+	-ms-border-radius: $radius
+	border-radius: $radius
+
+=transition($transition)
+	-webkit-transition: $transition
+	-moz-transition: $transition
+	-o-transition: $transition
+	transition: $transition
+
 html
 	background: rgba(27, 189, 195, 0.50)
 	padding: 5vw 0
@@ -6,7 +18,7 @@ html
 body
 	background: white
 	border: 0.75em solid rgba(27, 189, 195, 1)
-	border-radius: 0.5em
+	+border-radius(0.5em)
 	color: rgb(78, 78, 78)
 	font-family: "Archer SSm A", "Archer SSm B", "Avenir", sans-serif
 	font-size: 1.1em
@@ -23,7 +35,7 @@ body
 a
 	color: rgba(221, 121, 0, 0.75)
 	text-decoration: none
-	transition: all 0.2s ease-in-out
+	+transition(all 0.2s ease-in-out)
 
 main
 	margin: 3em auto

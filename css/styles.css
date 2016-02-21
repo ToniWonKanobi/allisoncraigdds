@@ -78,15 +78,23 @@ nav {
 }
 nav ul {
   display: -webkit-box;
+  display: -moz-box;
+  display: box;
   display: -webkit-flex;
+  display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-box-pack: distribute;
+  box-pack: distribute;
   -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: distribute;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -115,18 +123,29 @@ nav ul li:hover a, nav ul li:focus a {
 
 .image-text-container {
   -webkit-box-align: center;
+  box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
   border-bottom: 0.1em solid rgba(128, 128, 128, 0.25);
   display: -webkit-box;
+  display: -moz-box;
+  display: box;
   display: -webkit-flex;
+  display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
+  box-pack: justify;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: justify;
   margin-bottom: 4em;
   padding-bottom: 4em;
 }
@@ -139,7 +158,8 @@ nav ul li:hover a, nav ul li:focus a {
   -webkit-clip-path: circle(50% at center);
           clip-path: circle(50% at center);
   -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  filter: grayscale(1);
+  -webkit-transition: filter 0.2s ease-in-out;
   -webkit-transition: -webkit-filter 0.2s ease-in-out;
   transition: -webkit-filter 0.2s ease-in-out;
   transition: filter 0.2s ease-in-out;
@@ -148,7 +168,7 @@ nav ul li:hover a, nav ul li:focus a {
 }
 .image-text-container:hover img {
   -webkit-filter: initial;
-          filter: initial;
+  filter: initial;
 }
 .image-text-container p {
   width: 50%;
@@ -174,42 +194,49 @@ footer img {
 
   body {
     display: -webkit-box;
+    display: -moz-box;
+    display: box;
     display: -webkit-flex;
+    display: -moz-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
+    box-orient: vertical;
     -webkit-box-direction: normal;
+    box-direction: normal;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
-  header,
-  main,
-  nav {
-    width: 80%;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    padding: 1em;
   }
 
   header {
-    -webkit-box-ordinal-group: 2;
+    -webkit-box-ordinal-group: 1;
+    box-ordinal-group: 1;
     -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1;
+    -moz-order: 1;
+    order: 1;
+    -ms-flex-order: 1;
   }
 
   main {
-    -webkit-box-ordinal-group: 3;
+    -webkit-box-ordinal-group: 2;
+    box-ordinal-group: 2;
     -webkit-order: 2;
-        -ms-flex-order: 2;
-            order: 2;
+    -moz-order: 2;
+    order: 2;
+    -ms-flex-order: 2;
   }
 
   nav {
     border-top: 0.1em solid rgba(128, 128, 128, 0.25);
-    -webkit-box-ordinal-group: 4;
+    -webkit-box-ordinal-group: 3;
+    box-ordinal-group: 3;
     -webkit-order: 3;
-        -ms-flex-order: 3;
-            order: 3;
+    -moz-order: 3;
+    order: 3;
+    -ms-flex-order: 3;
     margin-bottom: 3em;
   }
   nav ul li {
@@ -218,19 +245,24 @@ footer img {
 
   .image-text-container {
     -webkit-box-orient: vertical;
+    box-orient: vertical;
     -webkit-box-direction: normal;
+    box-direction: normal;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
   }
   .image-text-container p, .image-text-container img {
     width: 100%;
   }
 
   footer {
-    -webkit-box-ordinal-group: 5;
+    -webkit-box-ordinal-group: 4;
+    box-ordinal-group: 4;
     -webkit-order: 4;
-        -ms-flex-order: 4;
-            order: 4;
+    -moz-order: 4;
+    order: 4;
+    -ms-flex-order: 4;
   }
 }
