@@ -29,12 +29,14 @@ html(lang="en")
 		include partials/google-analytics
 	
 	body
-		include partials/header
-		include partials/nav
-		
-		main
-			h2 Links
-			ul
-				li: a(href="http://dentistry.llu.edu" title="Loma Linda University School of Dentistry") Loma Linda University School of Dentistry
+		.content-container
+			include partials/header
+
+			include partials/nav
+
+			main.main
+				h2 Links
+				ul
+					li: a(href="http://dentistry.llu.edu" title="Loma Linda University School of Dentistry") Loma Linda University School of Dentistry
 
 		include partials/footer

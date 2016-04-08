@@ -1,7 +1,10 @@
-$coral: coral
+$coral: lighten(coral, 2%)
+$lightteal: rgba(27, 189, 195, 0.50)
+$teal: rgba(27, 189, 195, 1)
+$bodytext: rgb(78, 78, 78)
 
 html
-	background: rgba(27, 189, 195, 0.50)
+	background: linear-gradient($lightteal, $teal)
 	text-size-adjust: 100%
 	display: flex
 	flex-direction: column
@@ -11,20 +14,22 @@ html
 
 body
 	background: white
-	border: 0.75em solid rgba(27, 189, 195, 1)
-	border-radius: 0.5em
-	color: rgb(78, 78, 78)
+	// border: 2em solid $teal
+	// box-sizing: border-box
+	box-shadow: 1px 1px 10px $teal
+	border-radius: 1em
+	color: $bodytext
 	font-family: "Archer SSm A", "Archer SSm B", "Avenir Next", sans-serif
 	font-size: 1.1em
 	font-weight: 300
 	line-height: 1.6
-	max-width: 750px
+	max-width: 700px
 	width: 90%
 
-	> *:not(footer)
-		margin-left: auto
-		margin-right: auto
-		width: 80%
+.content-container
+	// box-sizing: border-box
+	border-radius: 1em
+	padding: 3em
 
 a
 	color: $coral

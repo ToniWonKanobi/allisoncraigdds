@@ -2,27 +2,34 @@
 	body
 		border: 0
 		border-radius: 0
-		display: flex
-		flex-direction: column
 		width: 100%
 
-	header
-		height: 60vh
-		min-height: 400px
-		max-height: 500px
+	.content-container
+		display: flex
+		flex-direction: column
+		padding: 2em
+
+	.siteheader
 		order: 1
 
-	main
+	.sitetitle
+		a
+			flex-direction: column
+
+	.sitelogo
+		margin: auto auto 0.5em auto
+
+	.main
 		order: 2
 
-	nav
-		border-top: 0.1em solid rgba(128, 128, 128, 0.25)
+	.nav
+		border-top: 0.25em solid rgba(128, 128, 128, 0.25)
 		order: 3
 		margin-bottom: 3em
 
-		ul li
-			// I'm not sure which is better---this or just the flex-direction set to column on the nav ul
-			width: 100%
+	.nav-item
+		// I'm not sure which is better---this or just the flex-direction set to column on the nav ul
+		width: 100%
 
 	.image-text-container
 		flex-direction: column
@@ -30,5 +37,6 @@
 		p, img
 			width: 100%
 
-	footer
-		order: 4
+	.footer
+		border-bottom-left-radius: 0
+		border-bottom-right-radius: 0

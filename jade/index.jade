@@ -29,11 +29,13 @@ html(lang="en")
 		include partials/google-analytics
 
 	body
-		include partials/header
-		include partials/nav
+		.content-container
+			include partials/header
 
-		main.main
-			h3 Hello
-			p Welcome to Bismarck Family Dental! We hope you find our website helpful. Please do not hesitate to call us if you have any questions. We would also love to meet you in person, so feel free to stop by!
+			include partials/nav
+
+			main.main
+				h3 Hello
+				p Welcome to Bismarck Family Dental! We hope you find our website helpful. Please do not hesitate to call us if you have any questions. We would also love to meet you in person, so feel free to stop by!
 
 		include partials/footer
