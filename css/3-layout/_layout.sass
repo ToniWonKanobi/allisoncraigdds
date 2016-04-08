@@ -14,15 +14,14 @@
 		margin-bottom: initial
 		padding-bottom: initial
 
-	img
-		clip-path: circle(50% at center)
-		filter: grayscale(1)
-		transition: filter 0.2s ease-in-out
-
-		width: 40%
-
-	&:hover img
+	&:hover .profile-pic, &:focus .profile-pic
 		filter: initial
 
-	p
-		width: 50%
+.profile-pic
+	clip-path: circle(50% at center)
+	filter: grayscale(1)
+	transition: filter 0.2s ease-in-out
+	width: 40%
+
+.profile-text
+	width: 50%
