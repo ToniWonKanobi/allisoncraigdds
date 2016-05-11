@@ -28,12 +28,13 @@ html(lang="en")
 		// Google Analytics
 		include partials/google-analytics
 
-	body
-		include partials/header
-		include partials/nav
+	body.fade-in-up
+		.content-container
+			include partials/header
+			include partials/nav
 
-		main
-			h3 404 / Page Not Found
-			p If you're lost, you can click one of the links above :)
+			main.main
+				h3 404 / Page Not Found
+				p If you're lost, you can click one of the links above :)
 
 		include partials/footer
