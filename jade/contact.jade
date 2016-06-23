@@ -1,0 +1,80 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title Contact
+		meta(name="description" content="Here's where we're located!")
+		include partials/favicons
+
+		// Open Graph and Twitter Cards
+		meta(property="og:locale" content="en_US")
+		meta(property="og:site_name" content="Allison Craig, DDS")
+		meta(property="og:type" content="website")
+		meta(property="og:title" content="Our Location")
+		meta(property="og:description" content="Here's where we're located!")
+		meta(property="og:image" content="/img/favicon.png")
+		meta(name="twitter:site" content="@allisoncraigdds")
+		meta(name="twitter:creator" content="@allisoncraigdds")
+		meta(name="twitter:title" content="Our Location")
+		meta(name="twitter:card" content="summary")
+		meta(name="twitter:description" content="Here's where we're located!")
+		meta(name="twitter:image" content="/img/favicon.png")
+
+		// Stylesheets
+		include partials/stylesheets
+
+		// Google Analytics
+		include partials/google-analytics
+	
+	body.fade
+		.content-container
+			include partials/header
+
+			include partials/nav
+
+			main.main
+				h2 Contact Information
+				
+				h3 Email
+				ul
+					li
+						a(href="mailto:contact@allisoncraigdds.com" title="Email Dr. Allison Craig") contact@allisoncraigdds.com
+						
+				h3 Locations
+				p Currently, Dr. Allison Craig is splitting time between three CommuniCare Health Centers: one in Davis, another in Woodland, and the final location in West Sacramento.
+				
+				ul
+					li
+						h4 Davis
+						a(href="http://www.communicarehc.org/View_webpage.asp?Title=Davis" title="Davis Community Clinic") Davis Community Clinic
+						br
+						a(href="http://maps.apple.com/?q=Davis+Community+Clinic" title="Apple Maps link to address") 2051 John Jones Road
+							br
+							| Davis, CA 95616
+						br
+						a(href="tel:1-530-757-4667" title="Phone number") (530) 757-4667
+
+					li
+						h4 Woodland
+						a(href="http://www.communicarehc.org/View_webpage.asp?Title=Hansen%20Family%20Health%20Center%20(Woodland)" title="Hansen Family Health Center") Hansen Family Health Center
+						br
+						a(href="http://maps.apple.com/?q=Hansen+Family+Health-Center" title="Apple Maps link to address") 215 West Beamer Street
+							br
+							| Woodland, CA 95695
+						br
+						a(href="tel:1-530-405-2811" title="Phone number") (530) 405-2811
+
+					li
+						h4 West Sacramento
+						a(href="http://www.communicarehc.org/View_webpage.asp?Title=Salud%20(West%20Sacramento)" title="Salud Clinic (West Sacramento)") Salud Clinic (West Sacramento)
+						br
+						a(href="http://maps.apple.com/?q=Salud+Clinic" title="Apple Maps link to address") 500B Jefferson Boulevard
+							br
+							| Suites #180 & #195
+							br
+							| West Sacramento, CA 95605
+						br
+						a(href="tel:1-916-403-2960" title="Phone number") (916) 403-2960
+
+		include partials/footer

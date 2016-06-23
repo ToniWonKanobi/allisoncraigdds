@@ -27,14 +27,17 @@ html(lang="en")
 		// Google Analytics
 		include partials/google-analytics
 
-	body.fade-in-up#visited
+	body.fade
 		.content-container
 			include partials/header
 
 			include partials/nav
 
 			main.main
-				h3 Hello
-				p Welcome to Bismarck Family Dental! We hope you find our website helpful. Please do not hesitate to call us if you have any questions. We would also love to meet you in person, so feel free to stop by!
+				h3 Greetings
+				.image-text-container
+					img.profile-pic(src="/img/dentist.jpg" alt="Picture of Dr. Allison Craig")
+					div.profile-text
+						p Welcome to my dental website! I hope it helps you learn a little bit about my practice. Also, I hope it helps you to get in touch.
 
 		include partials/footer

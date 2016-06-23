@@ -3,22 +3,22 @@ html(lang="en")
 	head
 		meta(charset="utf-8")
 		meta(name="viewport" content="width=device-width, initial-scale=1")
-		title Our Location
-		meta(name="description" content="Here's where we're located!")
-		include partials/favicons
+		title Dental Services by Dr. Allison Craig
+		meta(name="description" content="Learn about the services provided by Dr. Allison Craig")
+		include partials/favicons.jade
 
 		// Open Graph and Twitter Cards
 		meta(property="og:locale" content="en_US")
 		meta(property="og:site_name" content="Allison Craig, DDS")
 		meta(property="og:type" content="website")
-		meta(property="og:title" content="Our Location")
-		meta(property="og:description" content="Here's where we're located!")
+		meta(property="og:title" content="Learn about the services provided by Dr. Allison Craig")
+		meta(property="og:description" content="Learn about the services provided by Dr. Allison Craig.")
 		meta(property="og:image" content="/img/favicon.png")
 		meta(name="twitter:site" content="@allisoncraigdds")
 		meta(name="twitter:creator" content="@allisoncraigdds")
-		meta(name="twitter:title" content="Our Location")
+		meta(name="twitter:title" content="Learn about the services provided by Dr. Allison Craig")
 		meta(name="twitter:card" content="summary")
-		meta(name="twitter:description" content="Here's where we're located!")
+		meta(name="twitter:description" content="Learn about the services provided by Dr. Allison Craig.")
 		meta(name="twitter:image" content="/img/favicon.png")
 
 		// Stylesheets
@@ -26,22 +26,22 @@ html(lang="en")
 
 		// Google Analytics
 		include partials/google-analytics
-	
-	body.fade-in-up#visited
+		
+	body.fade
 		.content-container
 			include partials/header
 
 			include partials/nav
 
 			main.main
-				h2 Location Information
-				p We are conveniently located between Mammelon Way and Diastema Circle off Highway 84.
+				h2 Services
+				ul
+					li Cleanings
+					li Fillings
+					li Crowns/Bridges
+					li Implants
+					li Extractions
+					li Dentures
+					li ... and much more
 
-				p <b>Address:</b> <br>
-					a(href="#" title="Apple Maps link to address") 222 Incisor Lane <br>
-						| Bismarck, ND 88888
-
-				p <b>Phone Number:</b> <br>
-					a(href="#" title="Phone number") 707-965-6313
-
-		include partials/footer
+		include partials/footer.jade

@@ -1,18 +1,5 @@
-.fade-in-up
-	animation: fade-in-up 900ms ease-out
-
-@keyframes fade-in-up
-	from
-		opacity: 0
-		transform: translateY(150vh)
-
-	to
-		opacity: 1
-		transform: translateY(0)
-
-// As per my usual, this is to remove the translation when navigating between pages. Janky, but no JavaScript!
-\:target
-	animation: fade 1s ease-out
+.fade
+	animation: fade 1.25s ease-in-out
 
 @keyframes fade
 	from
