@@ -18,12 +18,14 @@ a.break
 		padding-bottom: initial
 
 	&:hover .profile-pic, &:focus .profile-pic
-		filter: initial
+		// Nah, this is old-school
+		// filter: initial
+		transform: scale(1.05)
 
 .profile-pic
 	clip-path: circle(50% at center)
-	filter: grayscale(1)
-	transition: filter 0.2s ease-in-out
+	// filter: grayscale(1)
+	transition: all 0.2s ease-in-out
 	width: 40%
 
 .profile-text
