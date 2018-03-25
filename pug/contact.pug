@@ -1,0 +1,53 @@
+doctype
+html(lang="en").toni
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Contact
+    meta(name="description" content="Here's where we're located!")
+    include partials/favicons
+
+    //- Open Graph and Twitter Cards
+    meta(property="og:locale" content="en_US")
+    meta(property="og:site_name" content="Allison Craig, DDS")
+    meta(property="og:type" content="website")
+    meta(property="og:title" content="Our Location")
+    meta(property="og:description" content="Here's where we're located!")
+    meta(property="og:image" content="/img/favicon.png")
+    meta(name="twitter:site" content="@allisoncraigdds")
+    meta(name="twitter:creator" content="@allisoncraigdds")
+    meta(name="twitter:title" content="Our Location")
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:description" content="Here's where we're located!")
+    meta(name="twitter:image" content="/img/favicon.png")
+
+    //- Stylesheets
+    include partials/stylesheets
+
+    //- Google Analytics
+    include partials/google-analytics
+  
+  body.fade
+    .content-container
+      include partials/header
+
+      include partials/nav
+
+      main.main
+        h2 Contact Information
+            
+        h3 Location
+        ul
+          li Currently, Dr. Allison Craig is working full time at <a href="http://toddcommdds.com" title="Dr. Todd Comm's website">S. Todd Comm, DDS, Inc.</a> in Dixon, CA
+
+        h3 Phone
+        ul
+          li
+            a(href="tel://1-707-678-9296" title="Office phone number for S. Todd Comm DDS, Inc.") (707) 678-9296
+        
+        //- h3 Email
+        //- ul
+        //-   li
+        //-     a.break(href="mailto:doctor@allisoncraigdds.com" title="Email Dr. Allison Craig") doctor@allisoncraigdds.com
+
+    include partials/footer

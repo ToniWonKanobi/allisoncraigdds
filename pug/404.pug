@@ -1,0 +1,39 @@
+doctype
+html(lang="en").toni
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    title Dr. Allison Craig
+    meta(name="description" content="Page not found!")
+    include partials/favicons
+
+    //- Open Graph and Twitter Cards
+    meta(property="og:locale" content="en_US")
+    meta(property="og:site_name" content="Allison Craig, DDS")
+    meta(property="og:type" content="website")
+    meta(property="og:title" content="Allison Craig, DDS")
+    meta(property="og:description" content="Page not found!")
+    meta(property="og:image"  content="/img/favicon.png")
+    meta(name="twitter:site" content="@allisoncraigdds")
+    meta(name="twitter:creator"  content="@allisoncraigdds")
+    meta(name="twitter:title" content="Allison Craig, DDS")
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:description" content="Page not found!")
+    meta(name="twitter:image"  content="/img/favicon.png")
+
+    //- Stylesheets
+    include partials/stylesheets
+
+    //- Google Analytics
+    include partials/google-analytics
+
+  body.fade-in-up
+    .content-container
+      include partials/header
+      include partials/nav
+
+      main.main
+        h3 404 / Page Not Found
+        p If you're lost, you can click one of the links above :)
+
+    include partials/footer
