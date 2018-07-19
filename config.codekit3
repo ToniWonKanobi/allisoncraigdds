@@ -7,7 +7,7 @@
 		"uuidString": "48C6127C-FCBC-4192-A6BC-4E624FE3A9D2"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/404.html": {
 		"cB": 0,
@@ -1424,6 +1424,7 @@
 	"\/img\/allison.jpg": {
 		"ft": 16384,
 		"iS": 268897,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/allison.jpg",
 		"oF": 0,
@@ -1444,6 +1445,7 @@
 	"\/img\/family.jpg": {
 		"ft": 16384,
 		"iS": 388847,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/family.jpg",
 		"oF": 0,
@@ -1639,7 +1641,8 @@
 	"creationDate": 516954346,
 	"displayValue": "allisoncraigdds.com",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/img\/favicon.png"
+	"iconImageName": "\/img\/favicon.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3442,6 +3445,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
