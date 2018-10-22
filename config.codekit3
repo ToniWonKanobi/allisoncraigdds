@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,804 +7,804 @@
 		"uuidString": "48C6127C-FCBC-4192-A6BC-4E624FE3A9D2"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28795",
 "files": {
-	"\/404.html": {
+	"/404.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/404.html",
+		"oAP": "/404.html",
 		"oF": 0
 		},
-	"\/about.html": {
+	"/about.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/about.html",
+		"oAP": "/about.html",
 		"oF": 0
 		},
-	"\/archive\/links.jade": {
+	"/archive/links.jade": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/archive\/links.html",
+		"oAP": "/archive/links.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/archive\/staff.jade": {
+	"/archive/staff.jade": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/archive\/staff.html",
+		"oAP": "/archive/staff.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/CNAME": {
+	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/CNAME",
+		"oAP": "/CNAME",
 		"oF": 0
 		},
-	"\/contact.html": {
+	"/contact.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/contact.html",
+		"oAP": "/contact.html",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/03bf2a7263d4669691f4e0505cf65c30add3b1d3\/_animation.sassc": {
+	"/css/.sass-cache/03bf2a7263d4669691f4e0505cf65c30add3b1d3/_animation.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/03bf2a7263d4669691f4e0505cf65c30add3b1d3\/_animation.sassc",
+		"oAP": "/css/.sass-cache/03bf2a7263d4669691f4e0505cf65c30add3b1d3/_animation.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/03bf2a7263d4669691f4e0505cf65c30add3b1d3\/_footer.sassc": {
+	"/css/.sass-cache/03bf2a7263d4669691f4e0505cf65c30add3b1d3/_footer.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/03bf2a7263d4669691f4e0505cf65c30add3b1d3\/_footer.sassc",
+		"oAP": "/css/.sass-cache/03bf2a7263d4669691f4e0505cf65c30add3b1d3/_footer.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/03bf2a7263d4669691f4e0505cf65c30add3b1d3\/_header.sassc": {
+	"/css/.sass-cache/03bf2a7263d4669691f4e0505cf65c30add3b1d3/_header.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/03bf2a7263d4669691f4e0505cf65c30add3b1d3\/_header.sassc",
+		"oAP": "/css/.sass-cache/03bf2a7263d4669691f4e0505cf65c30add3b1d3/_header.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/03bf2a7263d4669691f4e0505cf65c30add3b1d3\/_media-queries.sassc": {
+	"/css/.sass-cache/03bf2a7263d4669691f4e0505cf65c30add3b1d3/_media-queries.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/03bf2a7263d4669691f4e0505cf65c30add3b1d3\/_media-queries.sassc",
+		"oAP": "/css/.sass-cache/03bf2a7263d4669691f4e0505cf65c30add3b1d3/_media-queries.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/03bf2a7263d4669691f4e0505cf65c30add3b1d3\/_nav.sassc": {
+	"/css/.sass-cache/03bf2a7263d4669691f4e0505cf65c30add3b1d3/_nav.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/03bf2a7263d4669691f4e0505cf65c30add3b1d3\/_nav.sassc",
+		"oAP": "/css/.sass-cache/03bf2a7263d4669691f4e0505cf65c30add3b1d3/_nav.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/11246d3b0c34084ee6451ff8301c6ef4c48b46d2\/_mixins.sassc": {
+	"/css/.sass-cache/11246d3b0c34084ee6451ff8301c6ef4c48b46d2/_mixins.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/11246d3b0c34084ee6451ff8301c6ef4c48b46d2\/_mixins.sassc",
+		"oAP": "/css/.sass-cache/11246d3b0c34084ee6451ff8301c6ef4c48b46d2/_mixins.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/11246d3b0c34084ee6451ff8301c6ef4c48b46d2\/_tools-index.sassc": {
+	"/css/.sass-cache/11246d3b0c34084ee6451ff8301c6ef4c48b46d2/_tools-index.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/11246d3b0c34084ee6451ff8301c6ef4c48b46d2\/_tools-index.sassc",
+		"oAP": "/css/.sass-cache/11246d3b0c34084ee6451ff8301c6ef4c48b46d2/_tools-index.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_border-color.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_border-color.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_border-color.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_border-color.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_border-radius.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_border-radius.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_border-radius.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_border-radius.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_border-style.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_border-style.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_border-style.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_border-style.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_border-width.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_border-width.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_border-width.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_border-width.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_buttons.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_buttons.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_buttons.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_buttons.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_clearfix.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_clearfix.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_clearfix.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_clearfix.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_ellipsis.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_ellipsis.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_ellipsis.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_ellipsis.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_font-stacks.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_font-stacks.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_font-stacks.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_font-stacks.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_hide-text.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_hide-text.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_hide-text.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_hide-text.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_margin.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_margin.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_margin.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_margin.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_padding.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_padding.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_padding.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_padding.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_position.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_position.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_position.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_position.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_prefixer.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_prefixer.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_prefixer.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_prefixer.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_retina-image.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_retina-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_retina-image.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_retina-image.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_size.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_size.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_size.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_size.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_text-inputs.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_text-inputs.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_text-inputs.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_text-inputs.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_timing-functions.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_timing-functions.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_timing-functions.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_timing-functions.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_triangle.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_triangle.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_triangle.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_triangle.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_word-wrap.scssc": {
+	"/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_word-wrap.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/316d78563a583e667278a68d46d0b07ab602939a\/_word-wrap.scssc",
+		"oAP": "/css/.sass-cache/316d78563a583e667278a68d46d0b07ab602939a/_word-wrap.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/33106008c0971129d7d30b0e1d479afd2f77997a\/_base-index.sassc": {
+	"/css/.sass-cache/33106008c0971129d7d30b0e1d479afd2f77997a/_base-index.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/33106008c0971129d7d30b0e1d479afd2f77997a\/_base-index.sassc",
+		"oAP": "/css/.sass-cache/33106008c0971129d7d30b0e1d479afd2f77997a/_base-index.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/33106008c0971129d7d30b0e1d479afd2f77997a\/_base.sassc": {
+	"/css/.sass-cache/33106008c0971129d7d30b0e1d479afd2f77997a/_base.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/33106008c0971129d7d30b0e1d479afd2f77997a\/_base.sassc",
+		"oAP": "/css/.sass-cache/33106008c0971129d7d30b0e1d479afd2f77997a/_base.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/33106008c0971129d7d30b0e1d479afd2f77997a\/_fonts.sassc": {
+	"/css/.sass-cache/33106008c0971129d7d30b0e1d479afd2f77997a/_fonts.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/33106008c0971129d7d30b0e1d479afd2f77997a\/_fonts.sassc",
+		"oAP": "/css/.sass-cache/33106008c0971129d7d30b0e1d479afd2f77997a/_fonts.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/407a39c5d923612b628353f9515df4a6db9989eb\/_layout-index.sassc": {
+	"/css/.sass-cache/407a39c5d923612b628353f9515df4a6db9989eb/_layout-index.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/407a39c5d923612b628353f9515df4a6db9989eb\/_layout-index.sassc",
+		"oAP": "/css/.sass-cache/407a39c5d923612b628353f9515df4a6db9989eb/_layout-index.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/407a39c5d923612b628353f9515df4a6db9989eb\/_layout.sassc": {
+	"/css/.sass-cache/407a39c5d923612b628353f9515df4a6db9989eb/_layout.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/407a39c5d923612b628353f9515df4a6db9989eb\/_layout.sassc",
+		"oAP": "/css/.sass-cache/407a39c5d923612b628353f9515df4a6db9989eb/_layout.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/5035f6b96a0653d2c4c257dde71099d7711f81b5\/styles.sassc": {
+	"/css/.sass-cache/5035f6b96a0653d2c4c257dde71099d7711f81b5/styles.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/.sass-cache\/5035f6b96a0653d2c4c257dde71099d7711f81b5\/styles.sassc",
+		"oAP": "/css/.sass-cache/5035f6b96a0653d2c4c257dde71099d7711f81b5/styles.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_animation.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_animation.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_animation.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_animation.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_appearance.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_appearance.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_appearance.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_appearance.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_backface-visibility.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_backface-visibility.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_backface-visibility.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_backface-visibility.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_background-image.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_background-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_background-image.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_background-image.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_background.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_background.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_background.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_background.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_border-image.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_border-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_border-image.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_border-image.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_calc.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_calc.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_calc.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_calc.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_columns.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_columns.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_columns.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_columns.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_filter.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_filter.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_filter.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_filter.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_flex-box.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_flex-box.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_flex-box.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_flex-box.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_font-face.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_font-face.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_font-face.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_font-face.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_font-feature-settings.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_font-feature-settings.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_font-feature-settings.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_font-feature-settings.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_hidpi-media-query.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_hidpi-media-query.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_hidpi-media-query.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_hidpi-media-query.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_hyphens.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_hyphens.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_hyphens.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_hyphens.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_image-rendering.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_image-rendering.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_image-rendering.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_image-rendering.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_keyframes.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_keyframes.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_keyframes.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_keyframes.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_linear-gradient.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_linear-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_linear-gradient.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_linear-gradient.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_perspective.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_perspective.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_perspective.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_perspective.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_placeholder.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_placeholder.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_placeholder.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_placeholder.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_radial-gradient.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_radial-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_radial-gradient.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_radial-gradient.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_selection.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_selection.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_selection.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_selection.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_text-decoration.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_text-decoration.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_text-decoration.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_text-decoration.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_transform.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_transform.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_transform.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_transform.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_transition.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_transition.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_transition.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_transition.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_user-select.scssc": {
+	"/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_user-select.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/508ac17e23f338c5a0afad2bba0b2ef342d991ab\/_user-select.scssc",
+		"oAP": "/css/.sass-cache/508ac17e23f338c5a0afad2bba0b2ef342d991ab/_user-select.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/5a08ee3c74f22116bf92f7c436180f1322d9e9e1\/_normalize.scssc": {
+	"/css/.sass-cache/5a08ee3c74f22116bf92f7c436180f1322d9e9e1/_normalize.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/5a08ee3c74f22116bf92f7c436180f1322d9e9e1\/_normalize.scssc",
+		"oAP": "/css/.sass-cache/5a08ee3c74f22116bf92f7c436180f1322d9e9e1/_normalize.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/5a08ee3c74f22116bf92f7c436180f1322d9e9e1\/_tools-index.sassc": {
+	"/css/.sass-cache/5a08ee3c74f22116bf92f7c436180f1322d9e9e1/_tools-index.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/5a08ee3c74f22116bf92f7c436180f1322d9e9e1\/_tools-index.sassc",
+		"oAP": "/css/.sass-cache/5a08ee3c74f22116bf92f7c436180f1322d9e9e1/_tools-index.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/6a84c495c915de8f1d68775cbee8781ca980de15\/_bourbon-deprecated-upcoming.scssc": {
+	"/css/.sass-cache/6a84c495c915de8f1d68775cbee8781ca980de15/_bourbon-deprecated-upcoming.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/6a84c495c915de8f1d68775cbee8781ca980de15\/_bourbon-deprecated-upcoming.scssc",
+		"oAP": "/css/.sass-cache/6a84c495c915de8f1d68775cbee8781ca980de15/_bourbon-deprecated-upcoming.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/6a84c495c915de8f1d68775cbee8781ca980de15\/_bourbon.scssc": {
+	"/css/.sass-cache/6a84c495c915de8f1d68775cbee8781ca980de15/_bourbon.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/6a84c495c915de8f1d68775cbee8781ca980de15\/_bourbon.scssc",
+		"oAP": "/css/.sass-cache/6a84c495c915de8f1d68775cbee8781ca980de15/_bourbon.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/6f005aea92b0d31661ea2f109b32e496fed1c99f\/_footer.sassc": {
+	"/css/.sass-cache/6f005aea92b0d31661ea2f109b32e496fed1c99f/_footer.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/6f005aea92b0d31661ea2f109b32e496fed1c99f\/_footer.sassc",
+		"oAP": "/css/.sass-cache/6f005aea92b0d31661ea2f109b32e496fed1c99f/_footer.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/6f005aea92b0d31661ea2f109b32e496fed1c99f\/_header.sassc": {
+	"/css/.sass-cache/6f005aea92b0d31661ea2f109b32e496fed1c99f/_header.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/6f005aea92b0d31661ea2f109b32e496fed1c99f\/_header.sassc",
+		"oAP": "/css/.sass-cache/6f005aea92b0d31661ea2f109b32e496fed1c99f/_header.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/6f005aea92b0d31661ea2f109b32e496fed1c99f\/_media-queries.sassc": {
+	"/css/.sass-cache/6f005aea92b0d31661ea2f109b32e496fed1c99f/_media-queries.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/6f005aea92b0d31661ea2f109b32e496fed1c99f\/_media-queries.sassc",
+		"oAP": "/css/.sass-cache/6f005aea92b0d31661ea2f109b32e496fed1c99f/_media-queries.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/6f005aea92b0d31661ea2f109b32e496fed1c99f\/_modules-index.sassc": {
+	"/css/.sass-cache/6f005aea92b0d31661ea2f109b32e496fed1c99f/_modules-index.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/6f005aea92b0d31661ea2f109b32e496fed1c99f\/_modules-index.sassc",
+		"oAP": "/css/.sass-cache/6f005aea92b0d31661ea2f109b32e496fed1c99f/_modules-index.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/6f005aea92b0d31661ea2f109b32e496fed1c99f\/_nav.sassc": {
+	"/css/.sass-cache/6f005aea92b0d31661ea2f109b32e496fed1c99f/_nav.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/6f005aea92b0d31661ea2f109b32e496fed1c99f\/_nav.sassc",
+		"oAP": "/css/.sass-cache/6f005aea92b0d31661ea2f109b32e496fed1c99f/_nav.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/71cf8ecf65bf95e8ef893d405ab2b0bdf0b1e66d\/_layout-index.sassc": {
+	"/css/.sass-cache/71cf8ecf65bf95e8ef893d405ab2b0bdf0b1e66d/_layout-index.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/71cf8ecf65bf95e8ef893d405ab2b0bdf0b1e66d\/_layout-index.sassc",
+		"oAP": "/css/.sass-cache/71cf8ecf65bf95e8ef893d405ab2b0bdf0b1e66d/_layout-index.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/71cf8ecf65bf95e8ef893d405ab2b0bdf0b1e66d\/_layout.sassc": {
+	"/css/.sass-cache/71cf8ecf65bf95e8ef893d405ab2b0bdf0b1e66d/_layout.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/71cf8ecf65bf95e8ef893d405ab2b0bdf0b1e66d\/_layout.sassc",
+		"oAP": "/css/.sass-cache/71cf8ecf65bf95e8ef893d405ab2b0bdf0b1e66d/_layout.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/77eb210f76684f528bb9e5e81dfad0de5e7c811c\/styles.sassc": {
+	"/css/.sass-cache/77eb210f76684f528bb9e5e81dfad0de5e7c811c/styles.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/.sass-cache\/77eb210f76684f528bb9e5e81dfad0de5e7c811c\/styles.sassc",
+		"oAP": "/css/.sass-cache/77eb210f76684f528bb9e5e81dfad0de5e7c811c/styles.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_assign-inputs.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_assign-inputs.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_assign-inputs.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_assign-inputs.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_contains-falsy.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_contains-falsy.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_contains-falsy.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_contains-falsy.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_contains.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_contains.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_contains.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_contains.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_is-length.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_is-length.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_is-length.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_is-length.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_is-light.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_is-light.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_is-light.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_is-light.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_is-number.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_is-number.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_is-number.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_is-number.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_is-size.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_is-size.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_is-size.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_is-size.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_modular-scale.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_modular-scale.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_modular-scale.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_modular-scale.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_px-to-em.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_px-to-em.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_px-to-em.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_px-to-em.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_px-to-rem.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_px-to-rem.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_px-to-rem.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_px-to-rem.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_shade.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_shade.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_shade.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_shade.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_strip-units.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_strip-units.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_strip-units.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_strip-units.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_tint.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_tint.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_tint.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_tint.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_transition-property-name.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_transition-property-name.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_transition-property-name.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_transition-property-name.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_unpack.scssc": {
+	"/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_unpack.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b21694c19fddd320c203ebd9809aebe46be34bb4\/_unpack.scssc",
+		"oAP": "/css/.sass-cache/b21694c19fddd320c203ebd9809aebe46be34bb4/_unpack.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b7722fd6143bfc6c8056171d57ea27721e66ef38\/_asset-pipeline.scssc": {
+	"/css/.sass-cache/b7722fd6143bfc6c8056171d57ea27721e66ef38/_asset-pipeline.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b7722fd6143bfc6c8056171d57ea27721e66ef38\/_asset-pipeline.scssc",
+		"oAP": "/css/.sass-cache/b7722fd6143bfc6c8056171d57ea27721e66ef38/_asset-pipeline.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b7722fd6143bfc6c8056171d57ea27721e66ef38\/_prefixer.scssc": {
+	"/css/.sass-cache/b7722fd6143bfc6c8056171d57ea27721e66ef38/_prefixer.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b7722fd6143bfc6c8056171d57ea27721e66ef38\/_prefixer.scssc",
+		"oAP": "/css/.sass-cache/b7722fd6143bfc6c8056171d57ea27721e66ef38/_prefixer.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/b7722fd6143bfc6c8056171d57ea27721e66ef38\/_px-to-em.scssc": {
+	"/css/.sass-cache/b7722fd6143bfc6c8056171d57ea27721e66ef38/_px-to-em.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/b7722fd6143bfc6c8056171d57ea27721e66ef38\/_px-to-em.scssc",
+		"oAP": "/css/.sass-cache/b7722fd6143bfc6c8056171d57ea27721e66ef38/_px-to-em.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cefdde8170f60c3ed9bbd60390b476e63819c79a\/_normalize.scssc": {
+	"/css/.sass-cache/cefdde8170f60c3ed9bbd60390b476e63819c79a/_normalize.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cefdde8170f60c3ed9bbd60390b476e63819c79a\/_normalize.scssc",
+		"oAP": "/css/.sass-cache/cefdde8170f60c3ed9bbd60390b476e63819c79a/_normalize.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cefdde8170f60c3ed9bbd60390b476e63819c79a\/_tools-index.sassc": {
+	"/css/.sass-cache/cefdde8170f60c3ed9bbd60390b476e63819c79a/_tools-index.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cefdde8170f60c3ed9bbd60390b476e63819c79a\/_tools-index.sassc",
+		"oAP": "/css/.sass-cache/cefdde8170f60c3ed9bbd60390b476e63819c79a/_tools-index.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_convert-units.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_convert-units.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_convert-units.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_convert-units.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_directional-values.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_directional-values.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_directional-values.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_directional-values.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_font-source-declaration.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_font-source-declaration.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_font-source-declaration.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_font-source-declaration.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_gradient-positions-parser.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_gradient-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_gradient-positions-parser.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_gradient-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_linear-angle-parser.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_linear-angle-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_linear-angle-parser.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_linear-angle-parser.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_linear-gradient-parser.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_linear-gradient-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_linear-gradient-parser.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_linear-gradient-parser.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_linear-positions-parser.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_linear-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_linear-positions-parser.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_linear-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_linear-side-corner-parser.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_linear-side-corner-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_linear-side-corner-parser.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_linear-side-corner-parser.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_radial-arg-parser.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_radial-arg-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_radial-arg-parser.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_radial-arg-parser.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_radial-gradient-parser.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_radial-gradient-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_radial-gradient-parser.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_radial-gradient-parser.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_radial-positions-parser.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_radial-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_radial-positions-parser.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_radial-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_render-gradients.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_render-gradients.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_render-gradients.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_render-gradients.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_shape-size-stripper.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_shape-size-stripper.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_shape-size-stripper.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_shape-size-stripper.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_str-to-num.scssc": {
+	"/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_str-to-num.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1\/_str-to-num.scssc",
+		"oAP": "/css/.sass-cache/cfbcc2c1ac5e1fc1907c8a62aa97549bf68403c1/_str-to-num.scssc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/e9c5d024ce2bbfeaad253c626bbf91f4d89209db\/_base-index.sassc": {
+	"/css/.sass-cache/e9c5d024ce2bbfeaad253c626bbf91f4d89209db/_base-index.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/e9c5d024ce2bbfeaad253c626bbf91f4d89209db\/_base-index.sassc",
+		"oAP": "/css/.sass-cache/e9c5d024ce2bbfeaad253c626bbf91f4d89209db/_base-index.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/e9c5d024ce2bbfeaad253c626bbf91f4d89209db\/_base.sassc": {
+	"/css/.sass-cache/e9c5d024ce2bbfeaad253c626bbf91f4d89209db/_base.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/e9c5d024ce2bbfeaad253c626bbf91f4d89209db\/_base.sassc",
+		"oAP": "/css/.sass-cache/e9c5d024ce2bbfeaad253c626bbf91f4d89209db/_base.sassc",
 		"oF": 0
 		},
-	"\/css\/.sass-cache\/e9c5d024ce2bbfeaad253c626bbf91f4d89209db\/_mixins.sassc": {
+	"/css/.sass-cache/e9c5d024ce2bbfeaad253c626bbf91f4d89209db/_mixins.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/.sass-cache\/e9c5d024ce2bbfeaad253c626bbf91f4d89209db\/_mixins.sassc",
+		"oAP": "/css/.sass-cache/e9c5d024ce2bbfeaad253c626bbf91f4d89209db/_mixins.sassc",
 		"oF": 0
 		},
-	"\/css\/1-base\/.sass-cache\/e9c5d024ce2bbfeaad253c626bbf91f4d89209db\/_base.sassc": {
+	"/css/1-base/.sass-cache/e9c5d024ce2bbfeaad253c626bbf91f4d89209db/_base.sassc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/css\/1-base\/.sass-cache\/e9c5d024ce2bbfeaad253c626bbf91f4d89209db\/_base.sassc",
+		"oAP": "/css/1-base/.sass-cache/e9c5d024ce2bbfeaad253c626bbf91f4d89209db/_base.sassc",
 		"oF": 0
 		},
-	"\/css\/1-base\/_base-index.sass": {
+	"/css/1-base/_base-index.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -812,12 +812,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/css\/_base-index.css",
+		"oAP": "/css/css/_base-index.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/css\/1-base\/_base.sass": {
+	"/css/1-base/_base.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -825,482 +825,482 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/Users\/Anthony\/Desktop\/_base.css",
+		"oAP": "/Users/Anthony/Desktop/_base.css",
 		"oF": 7,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/css\/1-base\/fonts\/640722\/00C01BA45014BCE23.css": {
+	"/css/1-base/fonts/640722/00C01BA45014BCE23.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/00C01BA45014BCE23-min.css",
+		"oAP": "/css/1-base/fonts/640722/00C01BA45014BCE23-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/05ECCEAD65C2649A8.css": {
+	"/css/1-base/fonts/640722/05ECCEAD65C2649A8.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/05ECCEAD65C2649A8-min.css",
+		"oAP": "/css/1-base/fonts/640722/05ECCEAD65C2649A8-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/06C6513617A142878.css": {
+	"/css/1-base/fonts/640722/06C6513617A142878.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/06C6513617A142878-min.css",
+		"oAP": "/css/1-base/fonts/640722/06C6513617A142878-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/0B55252014A33EF23.css": {
+	"/css/1-base/fonts/640722/0B55252014A33EF23.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/0B55252014A33EF23-min.css",
+		"oAP": "/css/1-base/fonts/640722/0B55252014A33EF23-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/0C9E99FAF6C2B751E.css": {
+	"/css/1-base/fonts/640722/0C9E99FAF6C2B751E.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/0C9E99FAF6C2B751E-min.css",
+		"oAP": "/css/1-base/fonts/640722/0C9E99FAF6C2B751E-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/0CB33E819C45A5B6F.eot": {
+	"/css/1-base/fonts/640722/0CB33E819C45A5B6F.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/1-base\/fonts\/640722\/0CB33E819C45A5B6F.eot",
+		"oAP": "/css/1-base/fonts/640722/0CB33E819C45A5B6F.eot",
 		"oF": 0
 		},
-	"\/css\/1-base\/fonts\/640722\/131460F988DB0EAA4.css": {
+	"/css/1-base/fonts/640722/131460F988DB0EAA4.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/131460F988DB0EAA4-min.css",
+		"oAP": "/css/1-base/fonts/640722/131460F988DB0EAA4-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/155EA60E0149EF4AA.css": {
+	"/css/1-base/fonts/640722/155EA60E0149EF4AA.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/155EA60E0149EF4AA-min.css",
+		"oAP": "/css/1-base/fonts/640722/155EA60E0149EF4AA-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/1A4EFD517AF23D131.css": {
+	"/css/1-base/fonts/640722/1A4EFD517AF23D131.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/1A4EFD517AF23D131-min.css",
+		"oAP": "/css/1-base/fonts/640722/1A4EFD517AF23D131-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/1B63724E62F0D344E.eot": {
+	"/css/1-base/fonts/640722/1B63724E62F0D344E.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/1-base\/fonts\/640722\/1B63724E62F0D344E.eot",
+		"oAP": "/css/1-base/fonts/640722/1B63724E62F0D344E.eot",
 		"oF": 0
 		},
-	"\/css\/1-base\/fonts\/640722\/26958A81A00C12B1C.css": {
+	"/css/1-base/fonts/640722/26958A81A00C12B1C.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/26958A81A00C12B1C-min.css",
+		"oAP": "/css/1-base/fonts/640722/26958A81A00C12B1C-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/2AC8B8B5EEFB5E63C.css": {
+	"/css/1-base/fonts/640722/2AC8B8B5EEFB5E63C.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/2AC8B8B5EEFB5E63C-min.css",
+		"oAP": "/css/1-base/fonts/640722/2AC8B8B5EEFB5E63C-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/2B6314FE1B7EB8D55.eot": {
+	"/css/1-base/fonts/640722/2B6314FE1B7EB8D55.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/1-base\/fonts\/640722\/2B6314FE1B7EB8D55.eot",
+		"oAP": "/css/1-base/fonts/640722/2B6314FE1B7EB8D55.eot",
 		"oF": 0
 		},
-	"\/css\/1-base\/fonts\/640722\/3035D457EF03F86C2.css": {
+	"/css/1-base/fonts/640722/3035D457EF03F86C2.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/3035D457EF03F86C2-min.css",
+		"oAP": "/css/1-base/fonts/640722/3035D457EF03F86C2-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/322DADFDC70F8322F.css": {
+	"/css/1-base/fonts/640722/322DADFDC70F8322F.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/322DADFDC70F8322F-min.css",
+		"oAP": "/css/1-base/fonts/640722/322DADFDC70F8322F-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/37149F3800F957952.css": {
+	"/css/1-base/fonts/640722/37149F3800F957952.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/37149F3800F957952-min.css",
+		"oAP": "/css/1-base/fonts/640722/37149F3800F957952-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/3B39B53F4701DDACE.css": {
+	"/css/1-base/fonts/640722/3B39B53F4701DDACE.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/3B39B53F4701DDACE-min.css",
+		"oAP": "/css/1-base/fonts/640722/3B39B53F4701DDACE-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/492BEEA9D0F130FA9.css": {
+	"/css/1-base/fonts/640722/492BEEA9D0F130FA9.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/492BEEA9D0F130FA9-min.css",
+		"oAP": "/css/1-base/fonts/640722/492BEEA9D0F130FA9-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/4F47E2D9535AD977C.css": {
+	"/css/1-base/fonts/640722/4F47E2D9535AD977C.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/4F47E2D9535AD977C-min.css",
+		"oAP": "/css/1-base/fonts/640722/4F47E2D9535AD977C-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/50639BE9DC1FEEB05.eot": {
+	"/css/1-base/fonts/640722/50639BE9DC1FEEB05.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/1-base\/fonts\/640722\/50639BE9DC1FEEB05.eot",
+		"oAP": "/css/1-base/fonts/640722/50639BE9DC1FEEB05.eot",
 		"oF": 0
 		},
-	"\/css\/1-base\/fonts\/640722\/63A03739FFFCA6D4A.css": {
+	"/css/1-base/fonts/640722/63A03739FFFCA6D4A.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/63A03739FFFCA6D4A-min.css",
+		"oAP": "/css/1-base/fonts/640722/63A03739FFFCA6D4A-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/66F9E58D101F6351D.eot": {
+	"/css/1-base/fonts/640722/66F9E58D101F6351D.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/1-base\/fonts\/640722\/66F9E58D101F6351D.eot",
+		"oAP": "/css/1-base/fonts/640722/66F9E58D101F6351D.eot",
 		"oF": 0
 		},
-	"\/css\/1-base\/fonts\/640722\/68580F3B26DEC2BA1.css": {
+	"/css/1-base/fonts/640722/68580F3B26DEC2BA1.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/68580F3B26DEC2BA1-min.css",
+		"oAP": "/css/1-base/fonts/640722/68580F3B26DEC2BA1-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/6CE79C8348BEE8395.css": {
+	"/css/1-base/fonts/640722/6CE79C8348BEE8395.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/6CE79C8348BEE8395-min.css",
+		"oAP": "/css/1-base/fonts/640722/6CE79C8348BEE8395-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/6E086816DBA19C81D.css": {
+	"/css/1-base/fonts/640722/6E086816DBA19C81D.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/6E086816DBA19C81D-min.css",
+		"oAP": "/css/1-base/fonts/640722/6E086816DBA19C81D-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/71C28B94BEF384A13.css": {
+	"/css/1-base/fonts/640722/71C28B94BEF384A13.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/71C28B94BEF384A13-min.css",
+		"oAP": "/css/1-base/fonts/640722/71C28B94BEF384A13-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/723E0D259C950DF26.eot": {
+	"/css/1-base/fonts/640722/723E0D259C950DF26.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/1-base\/fonts\/640722\/723E0D259C950DF26.eot",
+		"oAP": "/css/1-base/fonts/640722/723E0D259C950DF26.eot",
 		"oF": 0
 		},
-	"\/css\/1-base\/fonts\/640722\/73C6700C22CB8A32C.css": {
+	"/css/1-base/fonts/640722/73C6700C22CB8A32C.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/73C6700C22CB8A32C-min.css",
+		"oAP": "/css/1-base/fonts/640722/73C6700C22CB8A32C-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/74C504FE3BA672834.css": {
+	"/css/1-base/fonts/640722/74C504FE3BA672834.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/74C504FE3BA672834-min.css",
+		"oAP": "/css/1-base/fonts/640722/74C504FE3BA672834-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/7A2C8195120E92A8A.eot": {
+	"/css/1-base/fonts/640722/7A2C8195120E92A8A.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/1-base\/fonts\/640722\/7A2C8195120E92A8A.eot",
+		"oAP": "/css/1-base/fonts/640722/7A2C8195120E92A8A.eot",
 		"oF": 0
 		},
-	"\/css\/1-base\/fonts\/640722\/8483A0439B2C82319.eot": {
+	"/css/1-base/fonts/640722/8483A0439B2C82319.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/1-base\/fonts\/640722\/8483A0439B2C82319.eot",
+		"oAP": "/css/1-base/fonts/640722/8483A0439B2C82319.eot",
 		"oF": 0
 		},
-	"\/css\/1-base\/fonts\/640722\/8CC6021D0D13409FD.css": {
+	"/css/1-base/fonts/640722/8CC6021D0D13409FD.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/8CC6021D0D13409FD-min.css",
+		"oAP": "/css/1-base/fonts/640722/8CC6021D0D13409FD-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/91842B54B5E3166F9.css": {
+	"/css/1-base/fonts/640722/91842B54B5E3166F9.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/91842B54B5E3166F9-min.css",
+		"oAP": "/css/1-base/fonts/640722/91842B54B5E3166F9-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/98ED6642870AFF7E6.css": {
+	"/css/1-base/fonts/640722/98ED6642870AFF7E6.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/98ED6642870AFF7E6-min.css",
+		"oAP": "/css/1-base/fonts/640722/98ED6642870AFF7E6-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/990C621576EBC8D0D.css": {
+	"/css/1-base/fonts/640722/990C621576EBC8D0D.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/990C621576EBC8D0D-min.css",
+		"oAP": "/css/1-base/fonts/640722/990C621576EBC8D0D-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/9A648E0ADD9C2A175.css": {
+	"/css/1-base/fonts/640722/9A648E0ADD9C2A175.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/9A648E0ADD9C2A175-min.css",
+		"oAP": "/css/1-base/fonts/640722/9A648E0ADD9C2A175-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/B38D04A31B301E750.eot": {
+	"/css/1-base/fonts/640722/B38D04A31B301E750.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/1-base\/fonts\/640722\/B38D04A31B301E750.eot",
+		"oAP": "/css/1-base/fonts/640722/B38D04A31B301E750.eot",
 		"oF": 0
 		},
-	"\/css\/1-base\/fonts\/640722\/BBE8CA452E729D9C3.css": {
+	"/css/1-base/fonts/640722/BBE8CA452E729D9C3.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/BBE8CA452E729D9C3-min.css",
+		"oAP": "/css/1-base/fonts/640722/BBE8CA452E729D9C3-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/BDF52BD00D58D6067.css": {
+	"/css/1-base/fonts/640722/BDF52BD00D58D6067.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/BDF52BD00D58D6067-min.css",
+		"oAP": "/css/1-base/fonts/640722/BDF52BD00D58D6067-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/C8958944E6E979F19.css": {
+	"/css/1-base/fonts/640722/C8958944E6E979F19.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/C8958944E6E979F19-min.css",
+		"oAP": "/css/1-base/fonts/640722/C8958944E6E979F19-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/CC83D7F30B3468616.css": {
+	"/css/1-base/fonts/640722/CC83D7F30B3468616.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/CC83D7F30B3468616-min.css",
+		"oAP": "/css/1-base/fonts/640722/CC83D7F30B3468616-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/D71F84DA9E1B88689.css": {
+	"/css/1-base/fonts/640722/D71F84DA9E1B88689.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/D71F84DA9E1B88689-min.css",
+		"oAP": "/css/1-base/fonts/640722/D71F84DA9E1B88689-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/D8B91B20D02477401.css": {
+	"/css/1-base/fonts/640722/D8B91B20D02477401.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/D8B91B20D02477401-min.css",
+		"oAP": "/css/1-base/fonts/640722/D8B91B20D02477401-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/D9426478C4CFC9353.css": {
+	"/css/1-base/fonts/640722/D9426478C4CFC9353.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/D9426478C4CFC9353-min.css",
+		"oAP": "/css/1-base/fonts/640722/D9426478C4CFC9353-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/DF5525079DA7234D4.css": {
+	"/css/1-base/fonts/640722/DF5525079DA7234D4.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/DF5525079DA7234D4-min.css",
+		"oAP": "/css/1-base/fonts/640722/DF5525079DA7234D4-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/DFC96854F1E5F9F17.eot": {
+	"/css/1-base/fonts/640722/DFC96854F1E5F9F17.eot": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/1-base\/fonts\/640722\/DFC96854F1E5F9F17.eot",
+		"oAP": "/css/1-base/fonts/640722/DFC96854F1E5F9F17.eot",
 		"oF": 0
 		},
-	"\/css\/1-base\/fonts\/640722\/E4A105BA48B4B274B.css": {
+	"/css/1-base/fonts/640722/E4A105BA48B4B274B.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/E4A105BA48B4B274B-min.css",
+		"oAP": "/css/1-base/fonts/640722/E4A105BA48B4B274B-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/F11DC8F1FF3F70D73.css": {
+	"/css/1-base/fonts/640722/F11DC8F1FF3F70D73.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/F11DC8F1FF3F70D73-min.css",
+		"oAP": "/css/1-base/fonts/640722/F11DC8F1FF3F70D73-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/F89E91F0E33C1425B.css": {
+	"/css/1-base/fonts/640722/F89E91F0E33C1425B.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/F89E91F0E33C1425B-min.css",
+		"oAP": "/css/1-base/fonts/640722/F89E91F0E33C1425B-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/1-base\/fonts\/640722\/FD6909B3821542095.css": {
+	"/css/1-base/fonts/640722/FD6909B3821542095.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/1-base\/fonts\/640722\/FD6909B3821542095-min.css",
+		"oAP": "/css/1-base/fonts/640722/FD6909B3821542095-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/2-modules\/_animation.sass": {
+	"/css/2-modules/_animation.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -1308,12 +1308,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/css\/_animation.css",
+		"oAP": "/css/css/_animation.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/css\/2-modules\/_footer.sass": {
+	"/css/2-modules/_footer.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -1321,12 +1321,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/css\/_footer.css",
+		"oAP": "/css/css/_footer.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/css\/2-modules\/_header.sass": {
+	"/css/2-modules/_header.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -1334,12 +1334,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/css\/_header.css",
+		"oAP": "/css/css/_header.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/css\/2-modules\/_media-queries.sass": {
+	"/css/2-modules/_media-queries.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -1347,12 +1347,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/css\/_media-queries.css",
+		"oAP": "/css/css/_media-queries.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/css\/2-modules\/_nav.sass": {
+	"/css/2-modules/_nav.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -1360,12 +1360,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/css\/_nav.css",
+		"oAP": "/css/css/_nav.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/css\/3-layout\/_layout-index.sass": {
+	"/css/3-layout/_layout-index.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -1373,12 +1373,12 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/css\/_layout-index.css",
+		"oAP": "/css/css/_layout-index.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/css\/3-layout\/_layout.sass": {
+	"/css/3-layout/_layout.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -1386,29 +1386,29 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/css\/css\/_layout.css",
+		"oAP": "/css/css/_layout.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/css\/styles.css": {
+	"/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/styles-min.css",
+		"oAP": "/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/styles.css.map": {
+	"/css/styles.css.map": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/styles.css.map",
+		"oAP": "/css/styles.css.map",
 		"oF": 0
 		},
-	"\/css\/styles.sass": {
+	"/css/styles.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,
@@ -1416,198 +1416,198 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/css\/styles.css",
+		"oAP": "/css/styles.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/img\/allison.jpg": {
+	"/img/allison.jpg": {
 		"ft": 16384,
 		"iS": 268897,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/allison.jpg",
+		"oAP": "/img/allison.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/banner.svg": {
+	"/img/banner.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/img\/banner.svg",
+		"oAP": "/img/banner.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/family.jpg": {
+	"/img/family.jpg": {
 		"ft": 16384,
 		"iS": 388847,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/img\/family.jpg",
+		"oAP": "/img/family.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/favicon.png": {
+	"/img/favicon.png": {
 		"ft": 32768,
 		"iS": 26078,
 		"oA": 0,
-		"oAP": "\/img\/favicon.png",
+		"oAP": "/img/favicon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/logo.svg": {
+	"/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/img\/logo.svg",
+		"oAP": "/img/logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/tooth.svg": {
+	"/img/tooth.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/img\/tooth.svg",
+		"oAP": "/img/tooth.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/index.html": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
-	"\/LICENSE": {
+	"/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/LICENSE",
+		"oAP": "/LICENSE",
 		"oF": 0
 		},
-	"\/pug\/404.pug": {
+	"/pug/404.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/404.html",
+		"oAP": "/404.html",
 		"oF": 2,
 		"oS": 0
 		},
-	"\/pug\/about.pug": {
+	"/pug/about.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/about.html",
+		"oAP": "/about.html",
 		"oF": 2,
 		"oS": 0
 		},
-	"\/pug\/contact.pug": {
+	"/pug/contact.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/contact.html",
+		"oAP": "/contact.html",
 		"oF": 2,
 		"oS": 0
 		},
-	"\/pug\/index.pug": {
+	"/pug/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "/index.html",
 		"oF": 2,
 		"oS": 0
 		},
-	"\/pug\/partials\/favicons.pug": {
+	"/pug/partials/favicons.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/pug\/partials\/favicons.html",
+		"oAP": "/pug/partials/favicons.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/pug\/partials\/footer.pug": {
+	"/pug/partials/footer.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/pug\/partials\/footer.html",
+		"oAP": "/pug/partials/footer.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/pug\/partials\/google-analytics.pug": {
+	"/pug/partials/google-analytics.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/pug\/partials\/google-analytics.html",
+		"oAP": "/pug/partials/google-analytics.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/pug\/partials\/header.pug": {
+	"/pug/partials/header.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/pug\/partials\/header.html",
+		"oAP": "/pug/partials/header.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/pug\/partials\/min\/google-analytics-min.js": {
+	"/pug/partials/min/google-analytics-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/pug\/partials\/min\/min\/google-analytics-min-min.js",
+		"oAP": "/pug/partials/min/min/google-analytics-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/pug\/partials\/nav.pug": {
+	"/pug/partials/nav.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/pug\/partials\/nav.html",
+		"oAP": "/pug/partials/nav.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/pug\/partials\/stylesheets.pug": {
+	"/pug/partials/stylesheets.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/pug\/partials\/stylesheets.html",
+		"oAP": "/pug/partials/stylesheets.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/pug\/services.pug": {
+	"/pug/services.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/services.html",
+		"oAP": "/services.html",
 		"oF": 2,
 		"oS": 0
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -1616,7 +1616,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -1625,11 +1625,11 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/services.html": {
+	"/services.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/services.html",
+		"oAP": "/services.html",
 		"oF": 0
 		}
 	},
@@ -1641,7 +1641,7 @@
 	"creationDate": 516954346,
 	"displayValue": "allisoncraigdds.com",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/img\/favicon.png",
+	"iconImageName": "/img/favicon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -1649,141 +1649,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1795,7 +1748,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1807,7 +1781,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1843,53 +1835,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1898,6 +1883,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -2255,6 +2241,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -2266,6 +2256,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -2311,6 +2305,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -2329,10 +2327,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2531,9 +2525,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2887,6 +2885,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2915,6 +2917,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2922,6 +2928,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2977,7 +2987,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -3037,7 +3047,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3432,7 +3442,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -3451,7 +3460,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
@@ -3483,19 +3492,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3551,7 +3560,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -3580,7 +3589,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -3604,36 +3613,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 0,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3641,11 +3684,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3669,6 +3712,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3685,7 +3732,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3693,20 +3748,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -3721,6 +3788,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3729,12 +3804,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -3745,12 +3828,20 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
-			"active": 0,
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -3761,23 +3852,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3789,9 +3908,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
