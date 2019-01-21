@@ -7,7 +7,7 @@
 		"uuidString": "48C6127C-FCBC-4192-A6BC-4E624FE3A9D2"
 		}
 	],
-"creatorBuild": "28795",
+"creatorBuild": "28905",
 "files": {
 	"/404.html": {
 		"cB": 0,
@@ -1421,34 +1421,46 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/img/allison.jpg": {
+	"/img/banner.jpeg": {
 		"ft": 16384,
-		"iS": 268897,
+		"iS": 3676510,
 		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/allison.jpg",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "/img/banner.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/drcraig.jpeg": {
+		"ft": 16384,
+		"iS": 1169138,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/drcraig.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/ears.jpeg": {
+		"ft": 16384,
+		"iS": 847068,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/ears.jpg",
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"/img/banner.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/banner.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/family.jpg": {
+	"/img/family.jpeg": {
 		"ft": 16384,
-		"iS": 388847,
+		"iS": 1129799,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/family.jpg",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
@@ -1456,20 +1468,30 @@
 	"/img/favicon.png": {
 		"ft": 32768,
 		"iS": 26078,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/favicon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oF": 1,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/img/flowers.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/flowers.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/img/logo.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -1477,12 +1499,23 @@
 	"/img/tooth.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/img/tooth.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/img/vegetation.jpeg": {
+		"ft": 16384,
+		"iS": 649124,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/vegetation.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/index.html": {
 		"cB": 0,

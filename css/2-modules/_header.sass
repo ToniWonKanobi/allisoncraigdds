@@ -1,5 +1,5 @@
 .siteheader
-  border-bottom: 0.2em solid rgba(128, 128, 128, 0.25)
+  border-bottom: 0.2em dotted rgba(128, 128, 128, 0.25)
   text-align: center
   display: flex
   align-items: center
@@ -19,8 +19,12 @@
 .sitelogo
   margin-right: 0.5em
   width: 2em
-  // vertical-align: -1.9rem
 
 .sitewordmark
-  font-size: 1.55em
+  font-size: 1.5em
   font-weight: 800
+  // I guess technically just WebKit, but the MDN pages shows everything but ancient IE? https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke-width#Browser_compatibility
+  @supports (-webkit-text-stroke-width: 0.035em)
+    -webkit-text-stroke-width: 0.035em
+    -webkit-text-stroke-color: darken($yellow, 7.5%)
+    letter-spacing: 0.025em

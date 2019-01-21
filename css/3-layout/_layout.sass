@@ -1,36 +1,36 @@
-a.break
-  word-break: break-all
+// I feel like we really needed a visual break between those two sections in the about area
+.text-container:last-child::before
+  // content: '***'
+  // More shallie style. Hmm.
+  content: '~~~'
+  text-align: center
+  font-style: italic
+  font-weight: bold
+  margin: 1em 0 1.5em 0
+  display: block
+  font-size: 200%
+  color: lightgray
 
-.image-text-container
-  align-items: center
-  border-bottom: 0.1em solid rgba(128, 128, 128, 0.25)
-
-  // This is for the pictures next to the paragraph
+.image-container
   display: flex
   justify-content: space-between
-  margin-bottom: 4em
-  padding-bottom: 4em
 
-  // Removes the spacing and stuff
-  &:last-child
-    border-bottom: initial
-    margin-bottom: initial
-    padding-bottom: initial
+.image-item
+  clip-path: square(50% at center)
+  border: solid 0.2em lighten($lightteal, 40%)
+  box-sizing: border-box
+  border-radius: $radius
+  transition: all 0.2s ease-in-out
+  // margin: 1em 0
+  max-width: 100%
+  // Necessary. Sigh.
+  height: 250px
 
-  &:hover .profile-pic, &:focus .profile-pic
+  .home &
+    height: auto
+    margin: auto
+
+  &:hover, &:focus
     // Nah, this is old-school
     // filter: initial
-    transform: scale(1.05)
-
-.profile-pic
-  clip-path: circle(50% at center)
-  // filter: grayscale(1)
-  transition: all 0.2s ease-in-out
-  width: 40%
-
-.profile-text
-  width: 50%
-
-@media (max-width: 740px)
-  .profile-text
-    width: 100%
+    transform: scale(1.03)

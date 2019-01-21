@@ -27,17 +27,22 @@ html(lang="en").toni
     //- Google Analytics
     include partials/google-analytics
 
-  body.fade
+  body.home.fade
     .content-container
       include partials/header
 
       include partials/nav
 
       main.main
-        h3 Greetings
-        .image-text-container
-          img.profile-pic(src="/img/allison.jpg" alt="Picture of Dr. Allison Craig")
-          div.profile-text
-            p Welcome to my dental website! I hope it helps you learn a little bit about my practice. Also, I hope it helps you to get in touch.
+        h2 Welcome
+        img.image-item(src="/img/drcraig.jpeg" alt="Picture of Dr. Allison Craig")
+        p Dr. Allison Craig attended dental school in Southern California at 
+            a(href="https://dentistry.llu.edu" "LLUSD Website") Loma Linda University School of Dentistry
+            | . She graduated in the top 10 of her class, and was inducted in to the 
+            a(href="http://www.okusupreme.org/" "Link to OKU website") Omicron Kappa Upsilon National Dental Honor Society
+            | . While in dental school, she participated in clinics and service projects for the undeserved.
+        p After graduating, Dr. Craig completed an Advanced Education in General Dentistry (AEGD) through 
+            a(href="https://www.lmcdental.org/programs/aegd" "NYU Lutheran Website") NYU Lutheran Dental Medicine
+            | .
 
     include partials/footer

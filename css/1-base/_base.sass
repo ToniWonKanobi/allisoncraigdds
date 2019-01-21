@@ -1,10 +1,24 @@
-$coral: lighten(coral, 2%)
-$lightteal: rgba(27, 189, 195, 0.50)
-$teal: rgba(27, 189, 195, 1)
-$bodytext: rgb(78, 78, 78)
+// Old colors 😢
+// $coral: lighten(coral, 2%)
+// $lightteal: rgba(27, 189, 195, 0.50)
+// $teal: rgba(27, 189, 195, 1)
+// $bodytext: rgb(78, 78, 78)
+
+// New colors January 2018
+$shallieyellow: rgb(229, 207, 136)
+// I like this better
+$yellow: darken($shallieyellow, 18%)
+$lightteal: rgba(88, 118, 118, 0.50)
+$teal: rgb(88, 118, 118)
+$bodytext: rgb(65, 66, 65)
+$radius: 0.75em
+// Makes the border-radius for the nav buttons more button-y
+$navradius: calc(#{$radius} * 1.25)
 
 html
-  background: linear-gradient($lightteal, $teal)
+  // Nah...
+  // background: linear-gradient($lightteal, $teal)
+  background-color: $teal
   text-size-adjust: 100%
   display: flex
   flex-direction: column
@@ -14,8 +28,9 @@ html
 
 body
   background: white
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.05)
-  border-radius: 1em
+  // Cribbed from Eli Schiff (http://static1.squarespace.com/static/sitecss/54bb4cfce4b045585ada36f7/804/50521cf884aeb45fa5cfdb80/54c80b38e4b0d312f4d819b7/867-05142015/1450359800347/site.css?&filterFeatures=false)
+  box-shadow: inset 0px -1px 1px 0px rgba(105, 105, 105, 0.5), inset 0px 0px 0px 1px rgba(0, 0, 0, 0), 0px 1px 1px 0px rgba(0, 0, 0, 0.18)
+  border-radius: $radius
   color: $bodytext
   font-family: "Archer SSm A", "Archer SSm B", "Avenir Next", sans-serif
   font-size: 1.1em
@@ -24,18 +39,26 @@ body
   max-width: 700px
   width: 90%
 
+  // Cute or no? 
+  box-sizing: border-box
+  border: 0.5em dotted $yellow
+
 .content-container
   // box-sizing: border-box
-  border-radius: 1em
+  border-radius: $radius
   padding: 3em
 
 a
-  color: $coral
+  // color: $coral
+  color: $yellow
   text-decoration: none
   transition: all 0.2s ease-in-out
 
+  &:hover, &:focus
+    color: darken($yellow, 10%)
+
 .main
-  margin: 3em auto
+  margin: 3em auto 7em auto
 
 h2
   font-weight: 700
@@ -53,3 +76,6 @@ sub, sup
   line-height: 0
   position: relative
   vertical-align: baseline
+
+.hidden
+  display: none

@@ -1,7 +1,7 @@
 @media (max-width: 740px)
   body
-    border: 0
     border-radius: 0
+    box-shadow: none
     width: 100%
 
   .content-container
@@ -19,28 +19,30 @@
   .sitelogo
     margin: auto auto 0.5em auto
 
+  h2
+    text-align: center
+
   .main
     order: 2
 
   .nav
-    border-top: 0.25em solid rgba(128, 128, 128, 0.25)
+    border-top: 0.2em dotted rgba(128, 128, 128, 0.25)
     order: 3
     margin-bottom: 3em
 
   .nav-item
     // I'm not sure which is better---this or just the flex-direction set to column on the nav ul
     width: 100%
+    padding: 0.5em 0
 
-  .image-text-container
+  .image-container
     flex-direction: column
 
-    p, img
-      width: 100%
+  .image-item
+    margin: 1em auto
+    max-width: 100%
+    height: auto
 
   .footer
     border-bottom-left-radius: 0
     border-bottom-right-radius: 0
-
-  .copyright
-    // This left/right padding is so janky, but whatev's
-    padding: 1.075em 0.8em
