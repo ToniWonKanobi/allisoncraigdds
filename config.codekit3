@@ -1476,15 +1476,16 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/flowers.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/flowers.svg",
+	"/img/flowers.jpg": {
+		"ft": 16384,
+		"iS": 241076,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/flowers.jpg",
 		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/img/logo.svg": {
 		"ft": 2097152,
