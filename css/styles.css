@@ -205,7 +205,8 @@ sub, sup {
   h2 {
     text-align: center; }
   .main {
-    order: 2; }
+    order: 2;
+    width: 100%; }
   .nav {
     border-top: 0.2em dotted rgba(128, 128, 128, 0.25);
     order: 3;
@@ -219,6 +220,8 @@ sub, sup {
     margin: 1em auto;
     max-width: 100%;
     height: auto; }
+  a {
+    word-break: break-word; }
   .footer {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0; } }
