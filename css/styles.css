@@ -142,7 +142,8 @@ sub, sup {
   height: 260px; }
   .home .image-item {
     height: auto;
-    margin: auto; }
+    margin: auto;
+    width: 100%; }
   .image-item:hover, .image-item:focus {
     -webkit-transform: scale(1.03);
             transform: scale(1.03); }
